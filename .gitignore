@@ -1,1 +1,4 @@
 /node_modules/
+Makefile
+package-lock.json
+package.json

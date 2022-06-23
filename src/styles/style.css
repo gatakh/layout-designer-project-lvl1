@@ -1,5 +1,6 @@
 /** CSS STYLE **/
  
+/** all **/
 :root {
   --white: #fff;
   --translucent: #d7ccc0;
@@ -23,27 +24,42 @@
   src: url(../assets/fonts/OpenSans-Regular.ttf);
 }
 
-html {
-width: 100%;
-min-height: 100vh;
-
-max-width: 100%;
-overflow: hidden;
+h2 {
+  margin: 0;
+  font-size: 60px;
+  font-family: Neucha, sans-serif;
+  font-weight: 400;
+  line-height: 72px;
 }
+
+h3 {
+  font-size: 34px;
+  font-family: Neucha, sans-serif;
+  font-weight: 400;
+  line-height: 40.8px;
+  color: var(--basic);
+}
+
+
+/** первая страница **/
 
 body {
 margin: 0;
 font-family: OpenSans;
+font-size: 16px;
+background-color: var(--light);
+overflow-x: hidden;
 display: flex;
-justify-content: center;
-width: 100%;
-height: auto;
-max-width: 100%;
-overflow: hidden;
+flex-direction: column;
 }
 
 .main-bg {
-height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 12px;
+ 
 }
 
 .main-bg::before{
@@ -67,6 +83,7 @@ margin: 0;
 font-size: 72px;
 font-family: Neucha, sans-serif;
 font-weight: 400;
+line-height: 86.4px;
 }
 
 .content {
@@ -78,30 +95,23 @@ font-weight: 400;
  
 
 .img-header {
-    position: absolute;
-    height: 525px;
-    top: 55px;
-    right: -270px;
-    }
+  position: absolute;
+  height: 525px;
+  top: 55px;
+  right: -270px;
+}
 
-    
+
 
 h * {
   line-height: 1.2em;
 }
 
 
-h2 {
-  font-size: 60px;
-}
-
-h3 {
-  font-size: 34px;
-}
 
 .columns {
   display: flex;
-  margin-top: 165px;
+  margin-top: 185px;
 }
 
 .color-basic {
@@ -114,7 +124,7 @@ h3 {
   color: var(--dark);
   text-align: left;
   font-family: OpenSans, sans-serif;
-  line-height: 1.6em;
+  line-height: 25.6px;
 }
 
 .first-column {
@@ -134,5 +144,118 @@ a {
   color: var(--white);
   background-color: var(--basic);
   border: transparent;
+}
+
+/** вторая страница **/
+
+.second-page {
+  background-color: #fff;
+  padding-top: 100px;
+  padding-bottom: 604px;
+ 
+}
+
+.second-header {
+text-align: center;
+margin-bottom: 30px;
+ 
+}
+
+.second-page p {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.video {
+ position: absolute;
+ left: 330px; 
+ filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+ z-index: 2;
+}
+
+/**третья страница **/
+
+.third-page {
+background-color: var(--basic_dark);
+position: relative;
+z-index: 1;
+top: -130px;
+
+}
+
+
+
+#navigation {
+width: 1440px;
+display: flex;
+flex-wrap: wrap;
+margin: 200px 165px 32px 165px;
+box-sizing: border-box;
+}
+
+.table-header,
+.table-content {
+padding: 24px;
+background-color: var(--light);
+
+border-bottom: 20px solid var(--basic_dark);
+border-right: 30px solid var(--basic_dark);
+}
+
+#navigation div:nth-child(2) {
+
+}
+
+.table-header {
+  font-size: 52px;
+  font-family: Neucha;
+  font-weight: 400;
+  line-height: 62.4px;
+  color: #fff;
+  background-color: var(--basic_dark);
+  padding: 0;
+  margin-right: 32px;
+}
+
+.first-row {
+  width: 326px;
+  height: 299px;
+}
+
+.second-row {
+  width: 326px;
+  height: 324px;
+}
+
+.table-figure {
+  margin-bottom: 40px;
+  font-size: 64px;
+  font-family: Neucha;
+  line-height: 1;
+}
+
+.table-content:hover {
+  background-color: var(--basic);
+  color: #fff;
+}
+
+.table-content:hover h3 {
+  background-color: var(--basic);
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a {
+  display: block;
+  background-color: transparent;
+  padding: 0;
+  text-decoration: none;
+  color: var(--dark);
+  text-transform: none;
+  font-weight: 400;
 }
 

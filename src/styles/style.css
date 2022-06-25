@@ -195,7 +195,6 @@ h * {
 .table-content {
   padding: 24px;
   background-color: var(--light);
-
   border-bottom: 20px solid var(--basic_dark);
   border-right: 30px solid var(--basic_dark);
 }

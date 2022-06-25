@@ -169,7 +169,7 @@ h * {
 
 .video {
   position: absolute;
-  left: 330px;
+  left: 300px;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
   z-index: 2;
 }

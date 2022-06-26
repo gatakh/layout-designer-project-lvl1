@@ -470,7 +470,6 @@ h4 {
   height: 100%;
   background-color: var(--brown);
   color: #fff;
-  padding: 100px 0;
 }
 
 #hyperbolic-depreciation::before {

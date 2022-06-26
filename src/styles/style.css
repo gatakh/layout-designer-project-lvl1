@@ -47,6 +47,7 @@ h3 {
   font-weight: 400;
   line-height: 40.8px;
   color: var(--basic);
+
 }
 
 img {
@@ -67,8 +68,15 @@ a {
   cursor: pointer;
 }
 
-.main-bg {
+.upper-columns h2 {
+  text-align: left;
+}
+
+/** первая страница **/
+
+#first-page {
   position: relative;
+  top: 0;
   left: 0;
   bottom: 0;
   display: flex;
@@ -79,7 +87,7 @@ a {
   background-color: var(--light);
 }
 
-.main-bg::before {
+#first-page::before {
   background-image: var(--main-bg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,12 +101,9 @@ a {
   height: 100%;
 }
 
-/** первая страница **/
-
-.content {
+.main-bg {
   position: relative;
   width: 1110px;
-  height: 100%;
   padding: 100px 0;
 }
 
@@ -114,7 +119,6 @@ h * {
 }
 
 .columns {
-  width: 1110px;
   display: flex;
   margin-top: 185px;
 }
@@ -124,10 +128,8 @@ h * {
 }
 
 .content p {
-  font-size: 16px;
   color: var(--dark);
   text-align: left;
-  font-family: OpenSans, sans-serif;
   line-height: 25.6px;
 }
 
@@ -158,24 +160,26 @@ h * {
 
 /** вторая страница **/
 
-.video-bg {
+#video-bg {
+  position: relative;
   display: flex;
   flex-direction: column;
-
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
 }
 
 .second-page {
-  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1110px;
   padding: 100px 0;
-
+ 
 }
 
-.second-header {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.second-page p {
+.second-page p, h2 {
   text-align: center;
   margin: 0;
   padding-bottom: 30px;
@@ -183,9 +187,13 @@ h * {
 
 .video {
   position: relative;
-  left: 226px;
+ 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
   z-index: 2;
+}
+
+.color-black {
+  color: var(--dark);
 }
 
 /**третья страница **/
@@ -195,24 +203,55 @@ h * {
   position: relative;
   z-index: 1;
   top: -202px;
-
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .third-page {
-  width: 1440px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  width: 1110px;
+  height: 691px;
   padding: 200px 0 100px 0;
 }
 
-.table-header,
-.table-content {
-  padding: 24px;
-  background-color: var(--light);
-  border-bottom: 20px solid var(--basic_dark);
-  border-right: 30px solid var(--basic_dark);
+.nav-link a {
+  background-color: transparent;
+  padding: 0;
+  text-decoration: none;
+  color: var(--dark);
+  font-weight: 400;
 }
+
+.nav-link {
+  text-decoration: none;
+  color: var(--dark);
+  width: 350px;
+  background-color: var(--light);
+}
+
+.first-row-flex,
+.second-row-flex {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.table-content {
+padding: 24px;
+}
+ 
+.table-content {
+  
+}
+
+.table-content h3 {
+ margin: 0;
+}
+
+.table-content p {
+  margin: 16px 0 0 0;
+ }
 
 .table-header {
   font-size: 52px;
@@ -221,18 +260,7 @@ h * {
   line-height: 62.4px;
   color: #fff;
   background-color: var(--basic_dark);
-  padding: 0;
-  margin-right: 32px;
-}
-
-.first-row {
-  width: 326px;
-  height: 299px;
-}
-
-.second-row {
-  width: 326px;
-  height: 324px;
+  margin-right: 9px;
 }
 
 .table-figure {
@@ -257,19 +285,7 @@ h * {
   text-decoration: none;
 }
 
-.nav-link a {
-  display: block;
-  background-color: transparent;
-  padding: 0;
-  text-decoration: none;
-  color: var(--dark);
-  font-weight: 400;
-}
 
-.nav-link {
-  text-decoration: none;
-  color: var(--dark);
-}
 
 /* икея-эффект */
 
@@ -379,10 +395,15 @@ h4 {
   padding: 6px 0 4px 10px;
 }
 
+.main-bg3 {
+  display: flex;
+  flex-direction: column;
+  width: 1110px;
+  padding: 100px 0;
+}
+
 #premature-optimization {
   position: relative;
-  padding: 100px 0;
-
   left: 0;
   bottom: 0;
   display: flex;

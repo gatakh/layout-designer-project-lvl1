@@ -102,6 +102,10 @@ a {
   width: 100%;
 }
 
+#header h1 {
+  margin-bottom: 7px;
+}
+
 .main-bg {
   position: relative;
   width: 1110px;
@@ -117,7 +121,6 @@ a {
 
 .columns {
   display: flex;
- 
 }
 
 #header p {
@@ -125,6 +128,10 @@ a {
 }
 
 .color-basic {
+  color: var(--basic);
+}
+
+.color-basic-header {
   color: var(--basic);
   line-height: 86.4px;
   display: block;

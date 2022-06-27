@@ -55,7 +55,7 @@ img {
 }
 
 body {
-  margin: 0;
+  
   font-family: OpenSans;
   font-size: 16px;
   background-color: var(--light);
@@ -66,6 +66,10 @@ body {
 
 a {
   cursor: pointer;
+}
+
+.upper-columns-right h2 {
+  text-align: left;
 }
 
 .upper-columns h2 {
@@ -102,7 +106,7 @@ a {
 .main-bg {
   position: relative;
   width: 1110px;
-  padding: 112px 0;
+  padding: 100px 0;
 }
 
 .img-header {
@@ -172,7 +176,6 @@ a {
   align-items: center;
   width: 1110px;
   padding: 100px 0;
-
 }
 
 .second-page p,
@@ -184,7 +187,6 @@ h2 {
 
 .video {
   position: relative;
-
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
   z-index: 2;
 }
@@ -284,6 +286,7 @@ h2 {
   color: var(--basic_dark);
 }
 
+.upper-columns-right,
 .upper-columns {
   display: flex;
   width: 1110px;
@@ -372,7 +375,7 @@ h4 {
 }
 
 .m-30 {
-  margin-right: 30px;
+  margin: 0 30px 0 0;
 }
 
 .bg-white {
@@ -444,7 +447,7 @@ h4 {
   background-size: cover;
   opacity: 0.1;
   content: "";
-  top: 0;
+ 
   left: 0;
   bottom: 0;
   position: absolute;

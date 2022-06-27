@@ -126,7 +126,7 @@ a {
 }
 
 #header p {
-  margin: 16px 0 0 3px;
+  margin: 16px 0 3px 0;
 }
 
 .color-basic {

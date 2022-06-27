@@ -219,7 +219,7 @@ a {
   background-color: var(--basic_dark);
   position: relative;
   z-index: 1;
-  top: -184px;
+  top: -182px;
   width: 100%;
   height: 100%;
   display: flex;
@@ -229,7 +229,7 @@ a {
 .third-page {
   width: 1110px;
   height: 691px;
-  padding: 184px 0 100px 0;
+  padding: 200px 0 100px 0;
 }
 
 .nav-link a {

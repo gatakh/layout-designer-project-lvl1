@@ -57,6 +57,7 @@ body {
   margin: 0;
   font-family: OpenSans;
   font-size: 16px;
+  color: var(--dark);
   background-color: var(--light);
   overflow-x: hidden;
   display: flex;

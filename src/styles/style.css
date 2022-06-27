@@ -121,11 +121,15 @@ a {
  
 }
 
+#header p {
+  margin: 16px 0 0 0;
+}
+
 .color-basic {
   color: var(--basic);
 }
 
-.content p {
+.columns p {
   color: var(--dark);
   text-align: left;
   line-height: 25.6px;
@@ -141,8 +145,6 @@ a {
   width: 50%;
   margin-top: 181px;
 }
-
-
 
 .btn {
   padding: 12px 24px;
@@ -178,11 +180,16 @@ a {
   padding: 100px 0;
 }
 
-.second-page p,
-h2 {
+.second-page h2 {
   text-align: center;
   margin: 0;
   padding-bottom: 30px;
+}
+
+.second-page p {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 27px;
 }
 
 .video {
@@ -488,6 +495,10 @@ h4 {
 
 .main-bg3 h2 {
   color: #fff;
+}
+
+#hyperbolic-depreciation p {
+  margin: 0;
 }
 
 /** Ошибка планирования **/

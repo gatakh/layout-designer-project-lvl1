@@ -55,7 +55,7 @@ img {
 }
 
 body {
-  
+  margin: 0;
   font-family: OpenSans;
   font-size: 16px;
   background-color: var(--light);

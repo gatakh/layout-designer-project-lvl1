@@ -46,7 +46,9 @@ h2 {
 }
 
 h3 {
+
   color: var(--basic);
+
   font-weight: 400;
   font-size: 34px;
   font-family: Neucha, sans-serif;
@@ -54,7 +56,7 @@ h3 {
 }
 
 img {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 #header img {
@@ -329,7 +331,7 @@ a {
 .table-header {
 
   color: #fff;
-
+  
   font-weight: 400;
 
   margin-right: 9px;
@@ -622,6 +624,14 @@ h4 {
   content: "";
 }
 
+.left-column p {
+  margin: 0;
+}
+
+.right-column p {
+  margin: 0;
+}
+
 #hyperbolic-depreciation p {
   margin: 0;
 }
@@ -708,19 +718,11 @@ footer {
   font-family: Neucha, sans-serif;
 }
 
-.left-column p {
-  margin: 0;
-}
-
 .right-column {
   position: relative;
 
   align-self: center;
   width: 50%;
-}
-
-.right-column p {
-  margin: 0;
 }
 
 .sr-only {

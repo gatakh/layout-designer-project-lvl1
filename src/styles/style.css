@@ -46,8 +46,8 @@ h2 {
 }
 
 h3 {
-  font-weight: 400;
   color: var(--basic);
+  font-weight: 400;
   font-size: 34px;
   font-family: Neucha, sans-serif;
   line-height: 40.8px;
@@ -68,9 +68,9 @@ body {
 
   color: var(--dark);
 
-  font-size: 16px;
-
   display: flex;
+
+  font-size: 16px;
 
   flex-direction: column;
 
@@ -122,11 +122,11 @@ a {
   bottom: 0;
   left: 0;
 
+  width: 100%;
+
   background-image: var(--main-bg);
   background-repeat: no-repeat;
   background-size: cover;
-
-  width: 100%;
 
   opacity: 0.1;
 
@@ -292,8 +292,9 @@ a {
 
   font-weight: 400;
 
-  background-color: transparent;
   text-decoration: none;
+
+  background-color: transparent;
 }
 
 .nav-link {
@@ -330,7 +331,7 @@ a {
   color: #fff;
 
   font-weight: 400;
-  
+
   margin-right: 9px;
   
   font-size: 52px;
@@ -399,15 +400,15 @@ h4 {
 
   width: 1110px;
 
-  color: #fff;
-
   margin-top: 100px;
+  
+  color: #fff;
 
   margin-bottom: 0;
 
-  font-size: 14px;
-
   padding: 5px 0 5px 10px;
+  
+  font-size: 14px;
 
   text-transform: uppercase;
   
@@ -441,21 +442,22 @@ h4 {
 }
 
 #ikea-effect::before {
-  background-image: var(--main-bg);
-  background-repeat: no-repeat;
-  background-size: cover;
-
+  
   position: absolute;
 
   top: 0;
   left: 0;
 
+  background-image: var(--main-bg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
   width: 100%;
   height: 100%;
 
-  opacity: 0.1;
-
   content: "";
+
+  opacity: 0.1;
 }
 
 /* Преждевременная оптимизация */
@@ -490,18 +492,18 @@ h4 {
 
 .bg-white {
 
-  color: var(--brown);
-
   margin-top: 100px;
   margin-bottom: 20px;
 
-  font-size: 14px;
+  color: var(--brown);
 
   padding: 6px 0 4px 10px;
 
-  background-color: #fff;
+  font-size: 14px;
 
   text-transform: uppercase;
+
+  background-color: #fff;
 }
 
 .main-bg3 {
@@ -534,12 +536,12 @@ h4 {
   bottom: 0;
   left: 0;
 
+  width: 100%;
+  height: 100%;
+
   background-image: var(--main-bg);
   background-repeat: no-repeat;
   background-size: cover;
-  
-  width: 100%;
-  height: 100%;
 
   opacity: 0.1;
   
@@ -654,13 +656,14 @@ h4 {
 
 #errors-in-planning::before {
   position: absolute;
-  background-image: var(--main-bg);
-  background-repeat: no-repeat;
-  background-size: cover;
 
   top: 0;
   bottom: 0;
   left: 0;
+  
+  background-image: var(--main-bg);
+  background-repeat: no-repeat;
+  background-size: cover;
   
   width: 100%;
   height: 100%;

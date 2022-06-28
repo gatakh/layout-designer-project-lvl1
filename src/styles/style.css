@@ -1,4 +1,3 @@
-
 /** CSS STYLE **/
 
 /** all **/
@@ -27,6 +26,7 @@
 
 h1 {
   margin: 0;
+
   font-weight: 400;
 
   font-size: 72px;
@@ -36,8 +36,10 @@ h1 {
 
 h2 {
   margin: 0;
-  font-size: 60px;
+
   color: var(--basic);
+
+  font-size: 60px;
   font-weight: 400;
   font-family: Neucha, sans-serif;
   line-height: 72px;
@@ -63,15 +65,18 @@ body {
   margin: 0;
 
   color: var(--dark);
-  font-size: 16px;
 
   overflow-x: hidden;
+
+  font-size: 16px;
+
   font-family: OpenSans, sans-serif;
 
   display: flex;
 
-  background-color: var(--light);
   flex-direction: column;
+
+  background-color: var(--light);
 }
 
 a {
@@ -111,16 +116,18 @@ a {
 }
 
 #header::before {
+  position: absolute;
   background-image: var(--main-bg);
   background-repeat: no-repeat;
   background-size: cover;
 
-  position: absolute;
-  opacity: 0.1;
   top: 0;
   bottom: 0;
   left: 0;
+
   width: 100%;
+
+  opacity: 0.1;
 
   content: "";
 }
@@ -158,9 +165,10 @@ a {
 
   display: block;
 
+  margin-bottom: 7px;
+
   color: var(--basic);
 
-  margin-bottom: 7px;
   line-height: 86.4px;
 }
 
@@ -182,6 +190,12 @@ a {
 }
 
 .btn {
+  display: block;
+
+  width: 101px;
+
+  margin-top: 40px;
+
   padding: 12px 24px;
 
   color: var(--white);
@@ -190,15 +204,9 @@ a {
   text-transform: uppercase;
   text-decoration: none;
 
-  display: block;
-
   background-color: var(--basic);
 
-  width: 101px;
-
   border: transparent;
-  
-  margin-top: 40px;
 }
 
 /** вторая страница **/
@@ -233,9 +241,9 @@ a {
 .second-page p {
   margin: 0 0 30px;
 
-  text-align: center;
-
   line-height: 25.6px;
+
+  text-align: center;
 }
 
 .video {
@@ -258,13 +266,14 @@ a {
 
   top: -200px;
 
-  background-color: var(--basic-dark);
   z-index: 1;
+
+  background-color: var(--basic-dark);
+
   display: flex;
   justify-content: center;
   width: 100%;
   height: 100%;
-  
 }
 
 .third-page {
@@ -315,13 +324,15 @@ a {
 
 .table-header {
   font-weight: 400;
+
+  color: #fff;
   
   font-size: 52px;
 
-  color: #fff;
+  margin-right: 9px;
+
   font-family: Neucha, sans-serif;
 
-  margin-right: 9px;
   line-height: 62.4px;
 
   background-color: var(--basic-dark);
@@ -338,6 +349,7 @@ a {
 .table-content:hover {
 
   color: #fff;
+
   background-color: var(--basic);
 }
 
@@ -345,7 +357,6 @@ a {
 
   color: #fff;
   background-color: var(--basic);
-  
 }
 
 .nav-link a:hover {
@@ -390,9 +401,9 @@ h4 {
 
   font-size: 14px;
 
-  background-color: var(--brown);
-  
   text-transform: uppercase;
+  
+  background-color: var(--brown);
 
   padding: 5px 0 5px 10px;
 }
@@ -471,12 +482,14 @@ h4 {
 
   font-size: 14px;
 
-  background-color: #fff;
-
   margin-top: 100px;
   margin-bottom: 20px;
-  text-transform: uppercase;
+
+  background-color: #fff;
+
   padding: 6px 0 4px 10px;
+
+  text-transform: uppercase;
 }
 
 .main-bg3 {
@@ -503,16 +516,16 @@ h4 {
 }
 
 #premature-optimization::before {
+  position: absolute;
   background-image: var(--main-bg);
   background-repeat: no-repeat;
   background-size: cover;
 
-  position: absolute;
-  opacity: 0.1;
-
   top: 0;
   bottom: 0;
   left: 0;
+
+  opacity: 0.1;
   
   width: 100%;
   height: 100%;
@@ -526,27 +539,29 @@ h4 {
   position: relative;
   bottom: 0;
   left: 0;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   height: 100%;
+
   background-color: var(--light);
 }
 
 #distortion-of-novelty::before {
+  position: absolute;
   background-image: var(--main-bg);
   background-repeat: no-repeat;
   background-size: cover;
-
-  position: absolute;
-  opacity: 0.1;
  
-  left: 0;
   bottom: 0;
-
+  left: 0;
+  
   width: 100%;
   height: 100%;
+
+  opacity: 0.1;
 
   content: "";
 }
@@ -573,12 +588,10 @@ h4 {
 }
 
 #hyperbolic-depreciation::before {
+  position: absolute;
   background-image: var(--main-bg);
   background-repeat: no-repeat;
   background-size: cover;
-
-  position: absolute;
-  opacity: 0.1;
 
   top: 0;
   bottom: 0;
@@ -586,6 +599,8 @@ h4 {
 
   width: 100%;
   height: 100%;
+
+  opacity: 0.1;
 
   content: "";
 }
@@ -623,13 +638,10 @@ h4 {
 }
 
 #errors-in-planning::before {
+  position: absolute;
   background-image: var(--main-bg);
   background-repeat: no-repeat;
   background-size: cover;
-
-  position: absolute;
-  opacity: 0.1;
-  
 
   top: 0;
   bottom: 0;
@@ -638,6 +650,8 @@ h4 {
   width: 100%;
   height: 100%;
 
+  opacity: 0.1;
+
   content: "";
 }
 
@@ -645,20 +659,20 @@ h4 {
 
 footer {
   display: flex;
+  justify-content: center;
 
   background-color: #fff;
 
-  justify-content: center;
   padding: 100px 0;
 }
 
 .upper-footer {
   display: flex;
   width: 1110px;
+  padding-right: 55px;
 
   color: #fff;
 
-  padding-right: 55px;
   background-color: var(--basic-dark);
 }
 
@@ -666,9 +680,10 @@ footer {
   width: 50%;
 
   color: #fff;
+  padding: 55px;
+
   font-size: 34px;
 
-  padding: 55px;
   font-weight: 400;
   font-family: Neucha, sans-serif;
 }
@@ -679,6 +694,7 @@ footer {
 
 .right-column {
   position: relative;
+
   align-self: center;
   width: 50%;
 }
@@ -696,14 +712,15 @@ footer {
   padding: 0;
 
   overflow: hidden;
+
+  white-space: nowrap;
   
   border: 0;
-  white-space: nowrap;
 }
 
 #email {
-  height: 50px;
   width: 423px;
+  height: 50px;
   padding: 0;
   
   border: none;
@@ -724,9 +741,10 @@ footer {
 .copyright {
 
   padding-top: 60px;
-  text-align: center;
 
   font-size: 14px;
+
+  text-align: center;
 }
 
 button {

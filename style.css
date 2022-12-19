@@ -11,7 +11,7 @@
   --translucent-dark: #908d8b;
   --brown: #b09a81;
   --blue: #1085c5;
-  --main-bg: url("../assets/images/background.png");
+  --main-bg: url("..src/assets/images/background.png");
 }
 
 @font-face {

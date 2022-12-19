@@ -370,6 +370,7 @@ a {
 .nav-link a:hover {
   color: #fff;
   text-decoration: none;
+  background-color: var(--basic);
 }
 
 /* икея-эффект */

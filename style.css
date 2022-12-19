@@ -11,17 +11,17 @@
   --translucent-dark: #908d8b;
   --brown: #b09a81;
   --blue: #1085c5;
-  --main-bg: url("..src/assets/images/background.png");
+  --main-bg: url("src/assets/images/background.png");
 }
 
 @font-face {
   font-family: Neucha;
-  src: url("..src/assets/fonts/Neucha-Regular.ttf");
+  src: url("src/assets/fonts/Neucha-Regular.ttf");
 }
 
 @font-face {
   font-family: OpenSans;
-  src: url("..src/assets/fonts/OpenSans-Regular.ttf");
+  src: url("src/assets/fonts/OpenSans-Regular.ttf");
 }
 
 h1 {
